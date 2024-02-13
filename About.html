@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cleaning Website Design</title>
+</head>
+
+
+<body>
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="images/Kiwi-cleaning-service-10.png"></a>
+    <div class="nav-links" id="navLinks">
+      
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      
+      <ul>
+        <li> <a href="index.html">HOME</a></li>
+        <li> <a href="About.html">ABOUT US</a></li>
+        <li> <a href="Servies we offer.html">SERVICES WE OFFER</a></li>
+        <li> <a href="Method Statement.html">METHOD STATEMENT</a></li>
+        <li> <a href="Testimonial Page.html">TESTIMONIALS</a></li>
+        <li> <a href="Contact.html">CONTACT US</a></li>
+    </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+  <h1> ABOUT US</h1>
+  </section>
+
+<!----------About Us Content ---------->
+
+<section class="about-us">
+
+<div class="row">
+<div class="about-col">
+  <h1> Meet Our Team</h1>
+  <p> Our Team is dedicated to cleaning your home, office or premises to an exceptional standard at a time that fits around you by carrying out general roles like vacuuming, dusting and polishing and cleaning the bathrooms and kitchen. Other roles will be tailored to your requirements.</p>
+  <p>Here at Kiwi Cleaning, we will be able to identify your priority areas and which jobs are carried out on a regular basis and which jobs are carried out on a rotational basis. This way you will receive a service that is tailored to your specific needs.</p>
+  <p>Our cleaning services cover a wide range of domestic and commercial premises and we ensure that the cleaning we do is to a high standard. We focus on trust, flexibility and the quality we provide to all our clients.</p>
+  
+
+</section>
+
+
+<div class="Icon-div">
+<img  class="icon-images"  src="images/About-us-logo/uniform.png">
+  <img    class="icon-images"  src="images/About-us-logo/punctual.png">
+    <img    class="icon-images"   src="images/About-us-logo/equpiment.png">
+      <img    class="icon-images"   src="images/About-us-logo/diagnostic-icon.png">
+    </div>
+
+    <div class="h2-icon-div">
+      <h2 class="h2-icon">Uniform</h2>
+      <h2 class="h2-icon">On Time</h2>
+      <h2 class="h2-icon">Well Equipped</h2>
+      <h2 class="h2-icon">DBS Checked</h2>
+    </div>
+
+    <div class="icon-p-div">
+      <h4 class="icon-p">We equip all our employees with fresh and clean uniforms which not only makes them more hygienic but also make it easy to recognise them</h4>
+      <h4 class="icon-p">We take great care to make sure we deliver the best experience to our customers. Our employees will arrive to the site on time and finish the job in the given time frame.</h4>
+      <h4 class="icon-p">All of our employees are equipped with the most suitable equipment for the job which not helps our deliver our services faster but also helps increase the quality of our work.</h4>
+      <h4 class="icon-p">Here at Kiwi Cleaning Services, our customers safety and health is our number one priority which is why we carry out a thorough DBS check on all our employees to make sure our customers feel safe and comfortable.</h4>
+      
+    </div>
+
+
+
+<!----------JavaScript for Toggeling Menu ---------->
+<script>
+
+  var navLinks = document.getElementById("navLinks")
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+
+</script>
+
+<!--------------------------Footer------------------>
+
+<section class="footer">
+
+  <p>
+    Property of KiwiCleaningService
+  </p>
+  <div class="icon-footer">
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
