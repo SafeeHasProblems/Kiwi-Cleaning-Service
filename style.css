@@ -407,18 +407,13 @@ padding: 15px 0 25px;
   margin-top: 50px;
 }
 
-.icon-images{
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  object-position: center;
-  margin-bottom: 20px;
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 100px;
+
+.banner-about{
+  display:inline-block;
+  align-items:center ;
+  margin-left: 60px;
   margin-right: 50px;
-  position: relative;
+
 }
 
 .Icon-div{
